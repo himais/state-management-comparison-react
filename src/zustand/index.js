@@ -7,7 +7,7 @@ const useStore = create((set) => ({
 }));
 
 function ZustandExample() {
-  const {count, increase, decrease} = useStore((state) => state.count);
+  const {count, increase, decrease} = useStore();
 
   return (
     <>
